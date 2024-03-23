@@ -1,6 +1,5 @@
-from src.mlProject.config.configuration import main
+from mlProject import logger
 
 
 
-
-main()
+logger.info("This is our custom logger from default constructor")
